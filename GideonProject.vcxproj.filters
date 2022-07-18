@@ -16,6 +16,84 @@
     <Filter Include="Backend\Configuration">
       <UniqueIdentifier>{9f88c792-9797-4ee8-a39c-65b29cc6b655}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Backend\DLL\Client">
+      <UniqueIdentifier>{b7058504-fcac-4b65-a287-a49eae80e665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\DLL\HWID">
+      <UniqueIdentifier>{00d57d0a-be45-4986-94d9-f1ccd294349c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Security">
+      <UniqueIdentifier>{1d6a7885-2bdd-4f01-9161-0b195e0f4aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\SDK">
+      <UniqueIdentifier>{ec0fd64c-c7f9-4f4d-8fc6-96402792ca8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Lua">
+      <UniqueIdentifier>{ecb130b6-5ce0-482b-88e7-08211caf80f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Interfaces">
+      <UniqueIdentifier>{ef92ddb4-6fa4-4e57-b83f-c4a15102ade2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Hooking">
+      <UniqueIdentifier>{9fe5398c-c5cb-4de6-9396-5caa96bf9d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Hooking\Functions">
+      <UniqueIdentifier>{01a1ba72-e856-4d19-8dd4-9109470e4403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Hooking\Hooks">
+      <UniqueIdentifier>{b750eb0e-1a63-4a96-8fc2-9325e7d0a36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Hashing">
+      <UniqueIdentifier>{ea36d200-da18-43bc-80d5-2ea21eb4db36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Features">
+      <UniqueIdentifier>{46ad4a52-d1d5-41da-b2f9-a14c9e050577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Features\Legitbot">
+      <UniqueIdentifier>{0d500364-5280-40ea-92b7-b7ebd0ec1d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Features\Misc">
+      <UniqueIdentifier>{8cda3b38-9fb6-49e6-9c19-da3a47751ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Features\Ragebot">
+      <UniqueIdentifier>{dae0747f-dd7c-48cd-add0-05f77d55a128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Features\Skinchanger">
+      <UniqueIdentifier>{fb0cd20e-c35c-4947-b720-834940153b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Features\Visuals">
+      <UniqueIdentifier>{db798a75-c511-4bf3-b228-c0effa94614c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\Features\Ragebot\Prediction">
+      <UniqueIdentifier>{2a7190a2-f507-485d-bdc1-81a6ddc9fb5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\_fixes">
+      <UniqueIdentifier>{fd4ab4c8-b6c2-44f2-8ade-ded4ade39ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend\_fixes\lend">
+      <UniqueIdentifier>{689f866e-adba-401a-98af-ece424a2a952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detours">
+      <UniqueIdentifier>{dc74024a-8e02-4a69-8376-b04dbe2abcc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frontend">
+      <UniqueIdentifier>{7a9b41c5-a318-46b6-960b-a8bc8870d646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frontend\Menu">
+      <UniqueIdentifier>{b3f613a1-1406-43ef-bdb6-9e6dfad82fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frontend\Other">
+      <UniqueIdentifier>{5a23807e-d81f-452e-8022-6284e3987b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frontend\Rendering">
+      <UniqueIdentifier>{b1f9d694-d2c2-477f-9b02-0a33fbd9a192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frontend\UI">
+      <UniqueIdentifier>{d08bd260-0739-479e-b302-d4c668df7f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{9a429db3-93a4-4bf6-8de2-83624632fe35}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Backend\DLL\Main.cpp">
@@ -24,71 +102,204 @@
     <ClCompile Include="Backend\Utility\Utilities.cpp">
       <Filter>Backend\Utility</Filter>
     </ClCompile>
-    <ClCompile Include="Backend\Configuration\Settings.cpp" />
-    <ClCompile Include="Backend\DLL\Engine.cpp" />
-    <ClCompile Include="Frontend\Rendering\Render.cpp" />
-    <ClCompile Include="Backend\Interfaces\Interfaces.cpp" />
-    <ClCompile Include="Backend\SDK\SDK.cpp" />
-    <ClCompile Include="Backend\Interfaces\NetVar.cpp" />
-    <ClCompile Include="Backend\SDK\GlobalDefenitions.cpp" />
-    <ClCompile Include="Backend\Features\Visuals\Visuals.cpp" />
-    <ClCompile Include="Backend\Features\Misc\Misc.cpp" />
-    <ClCompile Include="Backend\Features\Visuals\Drawing.cpp" />
-    <ClCompile Include="Backend\Features\EventListener.cpp" />
-    <ClCompile Include="Backend\SDK\CMaterialHelper.cpp" />
-    <ClCompile Include="Backend\SDK\SpoofedVar.cpp" />
-    <ClCompile Include="Backend\Features\Visuals\EventLogger.cpp" />
-    <ClCompile Include="Backend\Utility\Timer.cpp" />
-    <ClCompile Include="Backend\Include\GlobalVariables.cpp" />
-    <ClCompile Include="Backend\Security\Security.cpp" />
-    <ClCompile Include="Backend\Security\aes256.cpp" />
-    <ClCompile Include="Backend\Security\base64.cpp" />
-    <ClCompile Include="Backend\Security\blowfish.cpp" />
-    <ClCompile Include="Backend\Security\md5.cpp" />
-    <ClCompile Include="Backend\Features\Misc\LagCompensation.cpp" />
-    <ClCompile Include="Backend\DLL\HWID\HWID.cpp" />
-    <ClCompile Include="Backend\Features\Ragebot\AntiAims.cpp" />
-    <ClCompile Include="Backend\Features\Ragebot\Prediction\Prediction.cpp" />
-    <ClCompile Include="Backend\clip.cpp" />
-    <ClCompile Include="Backend\clip_win.cpp" />
-    <ClCompile Include="Backend\Lua\CLuaHook.cpp" />
-    <ClCompile Include="Backend\Hooking\KeyHandler.cpp" />
-    <ClCompile Include="Backend\Features\Ragebot\Resolver.cpp" />
-    <ClCompile Include="Backend\DLL\Client\ActiveSocket.cpp" />
-    <ClCompile Include="Backend\DLL\Client\Client.cpp" />
-    <ClCompile Include="Backend\DLL\Client\PassiveSocket.cpp" />
-    <ClCompile Include="Backend\DLL\Client\SimpleSocket.cpp" />
-    <ClCompile Include="Backend\DLL\Client\Xor.cpp" />
-    <ClCompile Include="Backend\SDK\Entities.cpp" />
-    <ClCompile Include="Backend\Features\Skinchanger\DynSkin.cpp" />
-    <ClCompile Include="Backend\Features\Skinchanger\cskin.cpp" />
-    <ClCompile Include="Backend\Features\Ragebot\animation.cpp" />
-    <ClCompile Include="Backend\Lua\CLua.cpp" />
-    <ClCompile Include="Frontend\UI\imgui.cpp" />
-    <ClCompile Include="Frontend\UI\imgui_demo.cpp" />
-    <ClCompile Include="Frontend\UI\imgui_draw.cpp" />
-    <ClCompile Include="Frontend\UI\imgui_impl_dx9.cpp" />
-    <ClCompile Include="Frontend\UI\imgui_impl_win32.cpp" />
-    <ClCompile Include="Frontend\UI\imgui_widgets.cpp" />
-    <ClCompile Include="Frontend\Menu\cmenu.cpp" />
-    <ClCompile Include="Backend\Features\c_fps.cpp" />
-    <ClCompile Include="Backend\Features\Ragebot\c_ragebot.cpp" />
-    <ClCompile Include="Backend\Features\Ragebot\CAutoWall.cpp" />
-    <ClCompile Include="Backend\Features\Ragebot\c_backtrack.cpp" />
-    <ClCompile Include="Backend\Features\Ragebot\c_playerlist.cpp" />
-    <ClCompile Include="Frontend\UI\imgui_freetype.cpp" />
-    <ClCompile Include="Backend\_fixes\anticrash.cpp" />
-    <ClCompile Include="Backend\_fixes\lend\ld32.c" />
-    <ClCompile Include="Backend\Features\Legitbot\c_legitbot.cpp" />
-    <ClCompile Include="Backend\Configuration\Config.cpp" />
-    <ClCompile Include="Backend\Features\Legitbot\c_triggerbot.cpp" />
-    <ClCompile Include="Backend\Features\Legitbot\c_legit_backtrack.cpp" />
-    <ClCompile Include="Backend\Features\Legitbot\legit_utils.cpp" />
-    <ClCompile Include="Backend\Features\Legitbot\c_legitbot2.cpp" />
-    <ClCompile Include="Backend\Features\Skinchanger\skinchanger.cpp" />
-    <ClCompile Include="Backend\Features\Skinchanger\skinchanger2.cpp" />
-    <ClCompile Include="Backend\Features\Skinchanger\item_definitions.cpp" />
-    <ClCompile Include="Backend\Features\Skinchanger\Memory.cpp" />
+    <ClCompile Include="Backend\DLL\Engine.cpp">
+      <Filter>Backend\DLL</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\DLL\Client\ActiveSocket.cpp">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\DLL\Client\Client.cpp">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\DLL\Client\PassiveSocket.cpp">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\DLL\Client\SimpleSocket.cpp">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\DLL\Client\Xor.cpp">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\DLL\HWID\HWID.cpp">
+      <Filter>Backend\DLL\HWID</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\clip.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\clip_win.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Configuration\Config.cpp">
+      <Filter>Backend\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Configuration\Settings.cpp">
+      <Filter>Backend\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Utility\Timer.cpp">
+      <Filter>Backend\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Security\aes256.cpp">
+      <Filter>Backend\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Security\base64.cpp">
+      <Filter>Backend\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Security\blowfish.cpp">
+      <Filter>Backend\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Security\md5.cpp">
+      <Filter>Backend\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Security\Security.cpp">
+      <Filter>Backend\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\SDK\CMaterialHelper.cpp">
+      <Filter>Backend\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\SDK\Entities.cpp">
+      <Filter>Backend\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\SDK\GlobalDefenitions.cpp">
+      <Filter>Backend\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\SDK\SDK.cpp">
+      <Filter>Backend\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\SDK\SpoofedVar.cpp">
+      <Filter>Backend\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Lua\CLua.cpp">
+      <Filter>Backend\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Lua\CLuaHook.cpp">
+      <Filter>Backend\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Interfaces\Interfaces.cpp">
+      <Filter>Backend\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Interfaces\NetVar.cpp">
+      <Filter>Backend\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Include\GlobalVariables.cpp">
+      <Filter>Backend\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Hooking\KeyHandler.cpp">
+      <Filter>Backend\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\c_fps.cpp">
+      <Filter>Backend\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\EventListener.cpp">
+      <Filter>Backend\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Legitbot\c_legit_backtrack.cpp">
+      <Filter>Backend\Features\Legitbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Legitbot\c_legitbot.cpp">
+      <Filter>Backend\Features\Legitbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Legitbot\c_legitbot2.cpp">
+      <Filter>Backend\Features\Legitbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Legitbot\c_triggerbot.cpp">
+      <Filter>Backend\Features\Legitbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Legitbot\legit_utils.cpp">
+      <Filter>Backend\Features\Legitbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Misc\LagCompensation.cpp">
+      <Filter>Backend\Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Misc\Misc.cpp">
+      <Filter>Backend\Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Ragebot\animation.cpp">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Ragebot\AntiAims.cpp">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Ragebot\c_backtrack.cpp">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Ragebot\c_playerlist.cpp">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Ragebot\c_ragebot.cpp">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Ragebot\CAutoWall.cpp">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Ragebot\Resolver.cpp">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Ragebot\Prediction\Prediction.cpp">
+      <Filter>Backend\Features\Ragebot\Prediction</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Skinchanger\skinchanger.cpp">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Skinchanger\cskin.cpp">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Skinchanger\skinchanger2.cpp">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Skinchanger\item_definitions.cpp">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Skinchanger\DynSkin.cpp">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Skinchanger\kitparser.cpp">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Skinchanger\Memory.cpp">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Visuals\Drawing.cpp">
+      <Filter>Backend\Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Visuals\Visuals.cpp">
+      <Filter>Backend\Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\Features\Visuals\EventLogger.cpp">
+      <Filter>Backend\Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\_fixes\anticrash.cpp">
+      <Filter>Backend\_fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Backend\_fixes\lend\ld32.c">
+      <Filter>Backend\_fixes\lend</Filter>
+    </ClCompile>
+    <ClCompile Include="Frontend\Menu\cmenu.cpp">
+      <Filter>Frontend\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Frontend\UI\imgui.cpp">
+      <Filter>Frontend\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Frontend\UI\imgui_demo.cpp">
+      <Filter>Frontend\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Frontend\UI\imgui_draw.cpp">
+      <Filter>Frontend\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Frontend\UI\imgui_freetype.cpp">
+      <Filter>Frontend\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Frontend\UI\imgui_impl_dx9.cpp">
+      <Filter>Frontend\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Frontend\UI\imgui_impl_win32.cpp">
+      <Filter>Frontend\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Frontend\UI\imgui_widgets.cpp">
+      <Filter>Frontend\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Frontend\Rendering\Render.cpp">
+      <Filter>Frontend\Rendering</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Backend\Include\GlobalIncludes.h">
@@ -97,185 +308,528 @@
     <ClInclude Include="Backend\Utility\Utilities.h">
       <Filter>Backend\Utility</Filter>
     </ClInclude>
-    <ClInclude Include="Backend\Configuration\Settings.h" />
-    <ClInclude Include="Other\version.h" />
-    <ClInclude Include="Backend\DLL\Engine.h" />
-    <ClInclude Include="Frontend\Rendering\Render.h" />
-    <ClInclude Include="Frontend\Other\ColorMgr.hpp" />
-    <ClInclude Include="Backend\Hooking\Functions\Reset.hpp" />
-    <ClInclude Include="Backend\Hooking\Functions\WndProc.hpp" />
-    <ClInclude Include="Backend\Configuration\Config.h" />
-    <ClInclude Include="Backend\Interfaces\Interfaces.h" />
-    <ClInclude Include="Backend\SDK\AnimLayer.h" />
-    <ClInclude Include="Backend\SDK\CBaseAnimState.h" />
-    <ClInclude Include="Backend\SDK\CBaseEntity.h" />
-    <ClInclude Include="Backend\SDK\CBaseWeapon.h" />
-    <ClInclude Include="Backend\SDK\CClientEntityList.h" />
-    <ClInclude Include="Backend\SDK\CGlobalVars.h" />
-    <ClInclude Include="Backend\SDK\CGlowObjectManager.h" />
-    <ClInclude Include="Backend\SDK\CInput.h" />
-    <ClInclude Include="Backend\SDK\CInputSystem.h" />
-    <ClInclude Include="Backend\SDK\CPanel.h" />
-    <ClInclude Include="Backend\SDK\CPrediction.h" />
-    <ClInclude Include="Backend\SDK\CTrace.h" />
-    <ClInclude Include="Backend\SDK\CUserCmd.h" />
-    <ClInclude Include="Backend\SDK\CViewSetup.h" />
-    <ClInclude Include="Backend\SDK\Checksum_CRC.h" />
-    <ClInclude Include="Backend\SDK\Collideable.h" />
-    <ClInclude Include="Backend\SDK\ConVar.h" />
-    <ClInclude Include="Backend\SDK\GameEvents.h" />
-    <ClInclude Include="Backend\SDK\IClient.h" />
-    <ClInclude Include="Backend\SDK\IEngine.h" />
-    <ClInclude Include="Backend\SDK\IMaterial.h" />
-    <ClInclude Include="Backend\SDK\INetChannelInfo.h" />
-    <ClInclude Include="Backend\SDK\ISurface.h" />
-    <ClInclude Include="Backend\SDK\IVDebugOverlay.h" />
-    <ClInclude Include="Backend\SDK\IVRenderBeams.h" />
-    <ClInclude Include="Backend\SDK\ModelInfo.h" />
-    <ClInclude Include="Backend\SDK\ModelRender.h" />
-    <ClInclude Include="Backend\SDK\NetChannel.h" />
-    <ClInclude Include="Backend\SDK\RecvData.h" />
-    <ClInclude Include="Backend\SDK\RenderView.h" />
-    <ClInclude Include="Backend\SDK\SurfaceData.h" />
-    <ClInclude Include="Backend\SDK\player_info_t.h" />
-    <ClInclude Include="Backend\SDK\color.h" />
-    <ClInclude Include="Backend\SDK\qangle.h" />
-    <ClInclude Include="Backend\SDK\quaternion.h" />
-    <ClInclude Include="Backend\SDK\vector2d.h" />
-    <ClInclude Include="Backend\SDK\vector3d.h" />
-    <ClInclude Include="Backend\SDK\vmatrix.h" />
-    <ClInclude Include="Backend\Interfaces\NetVar.h" />
-    <ClInclude Include="Backend\Features\Visuals\Visuals.h" />
-    <ClInclude Include="Backend\Hooking\Functions\LockCursor.hpp" />
-    <ClInclude Include="Backend\Hooking\Functions\CreateMove.hpp" />
-    <ClInclude Include="Backend\Hooking\Functions\FrameStageNotify.hpp" />
-    <ClInclude Include="Backend\SDK\GlobalDefenitions.h" />
-    <ClInclude Include="Backend\SDK\IClientMode.h" />
-    <ClInclude Include="Backend\Features\Misc\Misc.h" />
-    <ClInclude Include="Backend\Hooking\Functions\PaintTreverse.hpp" />
-    <ClInclude Include="Backend\Features\Visuals\Drawing.h" />
-    <ClInclude Include="Other\fonts.h" />
-    <ClInclude Include="Backend\Features\EventListener.h" />
-    <ClInclude Include="Backend\Hooking\Functions\DrawModelExecute.hpp" />
-    <ClInclude Include="Backend\Hooking\Functions\DoPostScreenSpaceEffects.hpp" />
-    <ClInclude Include="Backend\SDK\platform.hpp" />
-    <ClInclude Include="Backend\SDK\UtlMemory.hpp" />
-    <ClInclude Include="Backend\SDK\UtlVector.hpp" />
-    <ClInclude Include="Other\sounds.h" />
-    <ClInclude Include="Backend\Hooking\Functions\OverrideView.hpp" />
-    <ClInclude Include="Backend\Hooking\Functions\SceneEnd.hpp" />
-    <ClInclude Include="Backend\SDK\CMaterialHelper.h" />
-    <ClInclude Include="Other\icon.h" />
-    <ClInclude Include="Backend\SDK\IHandleEntity.h" />
-    <ClInclude Include="Backend\SDK\BaseHandle.h" />
-    <ClInclude Include="Backend\SDK\EHandle.h" />
-    <ClInclude Include="Backend\SDK\Cbeam.h" />
-    <ClInclude Include="Backend\Include\LuaClasses.h" />
-    <ClInclude Include="Backend\Features\Visuals\EventLogger.h" />
-    <ClInclude Include="Backend\Hooking\Functions\EmitSound.hpp" />
-    <ClInclude Include="Backend\Include\GlobalVariables.hpp" />
-    <ClInclude Include="Backend\Utility\Timer.h" />
-    <ClInclude Include="Backend\Security\Security.h" />
-    <ClInclude Include="Backend\Security\aes256.hpp" />
-    <ClInclude Include="Backend\Security\base64.h" />
-    <ClInclude Include="Backend\Security\blowfish.h" />
-    <ClInclude Include="Backend\Security\md5.h" />
-    <ClInclude Include="Backend\Features\Misc\LagCompensation.h" />
-    <ClInclude Include="Backend\Hooking\Functions\EndScene.hpp" />
-    <ClInclude Include="Backend\singleton.h" />
-    <ClInclude Include="Backend\SDK\physsurface.h" />
-    <ClInclude Include="Backend\Hashing\xorstr.h" />
-    <ClInclude Include="Backend\Hooking\Functions\SendDataGram.hpp" />
-    <ClInclude Include="Backend\Hooking\Functions\SetupBones.hpp" />
-    <ClInclude Include="Backend\Security\fnv.hpp" />
-    <ClInclude Include="Backend\DLL\HWID\HWID.h" />
-    <ClInclude Include="Backend\Features\Ragebot\AntiAims.h" />
-    <ClInclude Include="Backend\Features\Ragebot\Prediction\Pridiction.h" />
-    <ClInclude Include="Backend\clip.h" />
-    <ClInclude Include="Backend\clip_lock_impl.h" />
-    <ClInclude Include="Backend\Lua\lauxlib.h" />
-    <ClInclude Include="Backend\Lua\lua.h" />
-    <ClInclude Include="Backend\Lua\lua.hpp" />
-    <ClInclude Include="Backend\Lua\luaconf.h" />
-    <ClInclude Include="Backend\Lua\lualib.h" />
-    <ClInclude Include="Backend\Lua\sol.hpp" />
-    <ClInclude Include="Backend\Lua\CLuaHook.h" />
-    <ClInclude Include="Backend\Hooking\KeyHandler.h" />
-    <ClInclude Include="Backend\Features\Ragebot\Resolver.h" />
-    <ClInclude Include="Backend\DLL\Client\ActiveSocket.h" />
-    <ClInclude Include="Backend\DLL\Client\Client.h" />
-    <ClInclude Include="Backend\DLL\Client\Host.h" />
-    <ClInclude Include="Backend\DLL\Client\PassiveSocket.h" />
-    <ClInclude Include="Backend\DLL\Client\SimpleSocket.h" />
-    <ClInclude Include="Backend\DLL\Client\StatTimer.h" />
-    <ClInclude Include="Backend\DLL\Client\Xor.h" />
-    <ClInclude Include="Backend\DLL\Client\main.h" />
-    <ClInclude Include="Backend\DLL\Client\sha1.hpp" />
-    <ClInclude Include="Backend\enigma_ide.h" />
-    <ClInclude Include="Backend\lazyimports.h" />
-    <ClInclude Include="Backend\SDK\ILocalize.h" />
-    <ClInclude Include="Backend\Hooking\Functions\PostDataUpdate.h" />
-    <ClInclude Include="Backend\Features\Skinchanger\cskin.h" />
-    <ClInclude Include="Backend\Features\Skinchanger\DynSkin.h" />
-    <ClInclude Include="Backend\Features\Ragebot\animation.h" />
-    <ClInclude Include="Backend\SDK\handle.h" />
-    <ClInclude Include="Backend\SDK\malloc.h" />
-    <ClInclude Include="Backend\Lua\CLua.h" />
-    <ClInclude Include="Frontend\UI\imconfig.h" />
-    <ClInclude Include="Frontend\UI\imgui.h" />
-    <ClInclude Include="Frontend\UI\imgui_impl_dx9.h" />
-    <ClInclude Include="Frontend\UI\imgui_impl_win32.h" />
-    <ClInclude Include="Frontend\UI\imgui_internal.h" />
-    <ClInclude Include="Frontend\UI\imstb_rectpack.h" />
-    <ClInclude Include="Frontend\UI\imstb_textedit.h" />
-    <ClInclude Include="Frontend\UI\imstb_truetype.h" />
-    <ClInclude Include="Frontend\Menu\cmenu.h" />
-    <ClInclude Include="Frontend\Menu\bgtexture.h" />
-    <ClInclude Include="Backend\Features\c_fps.h" />
-    <ClInclude Include="Backend\DLL\HWID\winreg.h" />
-    <ClInclude Include="Frontend\Menu\bindsfont.h" />
-    <ClInclude Include="Backend\Features\Ragebot\c_ragebot.h" />
-    <ClInclude Include="Backend\c_storage.h" />
-    <ClInclude Include="Backend\Features\Ragebot\CAutoWall.h" />
-    <ClInclude Include="Backend\Features\Ragebot\c_backtrack.h" />
-    <ClInclude Include="Backend\Features\Ragebot\c_playerlist.h" />
-    <ClInclude Include="Frontend\UI\imgui_freetype.h" />
-    <ClInclude Include="Backend\SDK\vfunc.hpp" />
-    <ClInclude Include="Frontend\Menu\MenuBackground.h" />
-    <ClInclude Include="Frontend\Menu\MenuControls.h" />
-    <ClInclude Include="Frontend\Menu\MenuFonts.h" />
-    <ClInclude Include="Frontend\Menu\Dropdown.h" />
-    <ClInclude Include="Backend\Hooking\Functions\listLeavesInBox.hpp" />
-    <ClInclude Include="Backend\Hooking\Functions\WriteuUsercmdDeltaToBuffer.hpp" />
-    <ClInclude Include="Backend\Hooking\Functions\DoExtraBonesProcessing.hpp" />
-    <ClInclude Include="Backend\SDK\IGameRules.h" />
-    <ClInclude Include="Backend\_fixes\anticrash.h" />
-    <ClInclude Include="Backend\_fixes\lend\ld32.h" />
-    <ClInclude Include="Backend\Features\Legitbot\c_legitbot.h" />
-    <ClInclude Include="Backend\Hooking\Hooks\Hooks.h" />
-    <ClInclude Include="Backend\Features\Legitbot\c_triggerbot.h" />
-    <ClInclude Include="Backend\Features\Legitbot\legit_utils.h" />
-    <ClInclude Include="Backend\Features\Legitbot\c_legit_backtrack.h" />
-    <ClInclude Include="Backend\Features\Legitbot\c_legitbot2.h" />
-    <ClInclude Include="Backend\Features\Skinchanger\skinchanger.h" />
-    <ClInclude Include="Backend\Hooking\Functions\ReadPacketEntities.hpp" />
-    <ClInclude Include="Backend\Hooking\Functions\FireEvent.hpp" />
-    <ClInclude Include="Backend\Features\Skinchanger\skinchanger2.h" />
-    <ClInclude Include="Backend\Features\Skinchanger\Memory.h" />
-    <ClInclude Include="Backend\Features\Skinchanger\ItemSchema.h" />
-    <ClInclude Include="Backend\Features\Skinchanger\item_definitions.hpp" />
-    <ClInclude Include="Backend\Hooking\Functions\Sequence.hpp" />
-    <ClInclude Include="Backend\Hooking\Functions\StandardBlendingRules.hpp" />
-    <ClInclude Include="detours\detours.h" />
+    <ClInclude Include="Backend\DLL\Engine.h">
+      <Filter>Backend\DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\DLL\Client\ActiveSocket.h">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\DLL\Client\Client.h">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\DLL\Client\Host.h">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\DLL\Client\main.h">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\DLL\Client\PassiveSocket.h">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\DLL\Client\sha1.hpp">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\DLL\Client\SimpleSocket.h">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\DLL\Client\StatTimer.h">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\DLL\Client\Xor.h">
+      <Filter>Backend\DLL\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\DLL\HWID\HWID.h">
+      <Filter>Backend\DLL\HWID</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\DLL\HWID\winreg.h">
+      <Filter>Backend\DLL\HWID</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\clip.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\clip_lock_impl.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\enigma_ide.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\lazyimports.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\singleton.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Configuration\Config.h">
+      <Filter>Backend\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Configuration\Settings.h">
+      <Filter>Backend\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Utility\Timer.h">
+      <Filter>Backend\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Security\aes256.hpp">
+      <Filter>Backend\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Security\base64.h">
+      <Filter>Backend\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Security\blowfish.h">
+      <Filter>Backend\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Security\fnv.hpp">
+      <Filter>Backend\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Security\md5.h">
+      <Filter>Backend\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Security\Security.h">
+      <Filter>Backend\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\AnimLayer.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\BaseHandle.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CBaseAnimState.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CBaseEntity.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CBaseWeapon.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\Cbeam.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CClientEntityList.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CGlobalVars.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CGlowObjectManager.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\Checksum_CRC.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CInput.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CInputSystem.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CMaterialHelper.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\Collideable.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\ConVar.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CPanel.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CPrediction.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CTrace.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CUserCmd.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\CViewSetup.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\EHandle.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\GameEvents.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\GlobalDefenitions.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\handle.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\IClient.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\IClientMode.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\IGameRules.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\IEngine.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\IHandleEntity.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\ILocalize.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\IMaterial.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\INetChannelInfo.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\ISurface.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\IVDebugOverlay.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\IVRenderBeams.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\malloc.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\ModelInfo.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\ModelRender.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\NetChannel.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\physsurface.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\platform.hpp">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\player_info_t.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\qangle.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\quaternion.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\RecvData.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\RenderView.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\SurfaceData.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\UtlMemory.hpp">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\UtlVector.hpp">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\vector2d.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\vector3d.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\vfunc.hpp">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\vmatrix.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Lua\CLua.h">
+      <Filter>Backend\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Lua\CLuaHook.h">
+      <Filter>Backend\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Lua\lua.h">
+      <Filter>Backend\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Lua\lua.hpp">
+      <Filter>Backend\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Lua\lauxlib.h">
+      <Filter>Backend\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Lua\luaconf.h">
+      <Filter>Backend\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Lua\lualib.h">
+      <Filter>Backend\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Lua\sol.hpp">
+      <Filter>Backend\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Interfaces\Interfaces.h">
+      <Filter>Backend\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Interfaces\NetVar.h">
+      <Filter>Backend\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Include\GlobalVariables.hpp">
+      <Filter>Backend\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Include\LuaClasses.h">
+      <Filter>Backend\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\KeyHandler.h">
+      <Filter>Backend\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Hooks\Hooks.h">
+      <Filter>Backend\Hooking\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\CreateMove.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\DoExtraBonesProcessing.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\DoPostScreenSpaceEffects.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\DrawModelExecute.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\EmitSound.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\EndScene.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\FireEvent.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\FrameStageNotify.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\listLeavesInBox.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\LockCursor.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\OverrideView.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\PaintTreverse.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\PostDataUpdate.h">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\ReadPacketEntities.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\Reset.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\SceneEnd.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\SendDataGram.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\Sequence.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\SetupBones.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\StandardBlendingRules.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\WndProc.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hooking\Functions\WriteuUsercmdDeltaToBuffer.hpp">
+      <Filter>Backend\Hooking\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Hashing\xorstr.h">
+      <Filter>Backend\Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\c_fps.h">
+      <Filter>Backend\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\EventListener.h">
+      <Filter>Backend\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\c_storage.h">
+      <Filter>Backend\Features\Legitbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Legitbot\c_legit_backtrack.h">
+      <Filter>Backend\Features\Legitbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Legitbot\c_legitbot.h">
+      <Filter>Backend\Features\Legitbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Legitbot\c_legitbot2.h">
+      <Filter>Backend\Features\Legitbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Legitbot\c_triggerbot.h">
+      <Filter>Backend\Features\Legitbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Legitbot\legit_utils.h">
+      <Filter>Backend\Features\Legitbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Misc\LagCompensation.h">
+      <Filter>Backend\Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Misc\Misc.h">
+      <Filter>Backend\Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Ragebot\animation.h">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Ragebot\AntiAims.h">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Ragebot\c_backtrack.h">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Ragebot\c_playerlist.h">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Ragebot\c_ragebot.h">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Ragebot\CAutoWall.h">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Ragebot\Resolver.h">
+      <Filter>Backend\Features\Ragebot</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Ragebot\Prediction\Pridiction.h">
+      <Filter>Backend\Features\Ragebot\Prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Skinchanger\cskin.h">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Skinchanger\skinchanger.h">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Skinchanger\skinchanger2.h">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Skinchanger\item_definitions.hpp">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Skinchanger\DynSkin.h">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Skinchanger\ItemSchema.h">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Skinchanger\kitparser.h">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Skinchanger\Memory.h">
+      <Filter>Backend\Features\Skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Visuals\Drawing.h">
+      <Filter>Backend\Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Visuals\Visuals.h">
+      <Filter>Backend\Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\Features\Visuals\EventLogger.h">
+      <Filter>Backend\Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\_fixes\anticrash.h">
+      <Filter>Backend\_fixes</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\_fixes\lend\ld32.h">
+      <Filter>Backend\_fixes\lend</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detours.h">
+      <Filter>detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\Menu\bgtexture.h">
+      <Filter>Frontend\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\Menu\bindsfont.h">
+      <Filter>Frontend\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\Menu\cmenu.h">
+      <Filter>Frontend\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\UI\imconfig.h">
+      <Filter>Frontend\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\UI\imgui.h">
+      <Filter>Frontend\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\UI\imgui_freetype.h">
+      <Filter>Frontend\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\UI\imgui_impl_dx9.h">
+      <Filter>Frontend\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\UI\imgui_impl_win32.h">
+      <Filter>Frontend\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\UI\imgui_internal.h">
+      <Filter>Frontend\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\UI\imstb_rectpack.h">
+      <Filter>Frontend\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\UI\imstb_textedit.h">
+      <Filter>Frontend\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\UI\imstb_truetype.h">
+      <Filter>Frontend\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\Rendering\Render.h">
+      <Filter>Frontend\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Frontend\Other\ColorMgr.hpp">
+      <Filter>Frontend\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\fonts.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\icon.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\sounds.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\version.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend\SDK\color.h">
+      <Filter>Backend\SDK</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="detours\detours.pdb" />
+    <Library Include="Lua.lib">
+      <Filter>Backend\Lua</Filter>
+    </Library>
+    <Library Include="Backend\Lua\Lua.lib">
+      <Filter>Backend\Lua</Filter>
+    </Library>
+    <Library Include="lua53.lib">
+      <Filter>Backend\Lua</Filter>
+    </Library>
+    <Library Include="Backend\Lua\lua53.lib">
+      <Filter>Backend\Lua</Filter>
+    </Library>
+    <Library Include="detours\detours.lib">
+      <Filter>detours</Filter>
+    </Library>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="Lua.lib" />
-    <Library Include="lua53.lib" />
-    <Library Include="Backend\Lua\lua53.lib" />
-    <Library Include="Backend\Lua\Lua.lib" />
-    <Library Include="detours\detours.lib" />
+    <None Include="detours\detours.pdb">
+      <Filter>detours</Filter>
+    </None>
   </ItemGroup>
 </Project>

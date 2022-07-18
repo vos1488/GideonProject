@@ -134,8 +134,8 @@
     <LibraryPath>C:\Users\vos1488\Desktop\gamesense.net full source\detours;C:\Users\vos1488\Desktop\gamesense.net full source\Frontend\UI\freetype\objs;H:\include\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>H:\include\Microsoft DirectX SDK %28June 2010%29\Include;C:\Users\vos1488\Desktop\gamesense.net full source\Frontend\UI\freetype\include;C:\Users\vos1488\Desktop\gamesense.net full source\detours;$(IncludePath)</IncludePath>
-    <LibraryPath>H:\include\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);C:\Users\vos1488\Desktop\gamesense.net full source\Frontend\UI\freetype\objs;C:\Users\vos1488\Desktop\gamesense.net full source\detours</LibraryPath>
+    <IncludePath>$(DXSDK_DIR)Include;$(SolutionDir)Frontend\UI\freetype\include;$(SolutionDir)detours;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x86;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(SolutionDir)Frontend\UI\freetype\objs;$(SolutionDir)detours</LibraryPath>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (ok)|Win32'">
@@ -358,6 +358,7 @@
     <ClCompile Include="Backend\Features\Skinchanger\cskin.cpp" />
     <ClCompile Include="Backend\Features\Skinchanger\DynSkin.cpp" />
     <ClCompile Include="Backend\Features\Skinchanger\item_definitions.cpp" />
+    <ClCompile Include="Backend\Features\Skinchanger\kitparser.cpp" />
     <ClCompile Include="Backend\Features\Skinchanger\Memory.cpp" />
     <ClCompile Include="Backend\Features\Skinchanger\skinchanger2.cpp" />
     <ClCompile Include="Backend\Features\Visuals\Drawing.cpp" />
@@ -434,6 +435,7 @@
     <ClInclude Include="Backend\Features\Skinchanger\DynSkin.h" />
     <ClInclude Include="Backend\Features\Skinchanger\ItemSchema.h" />
     <ClInclude Include="Backend\Features\Skinchanger\item_definitions.hpp" />
+    <ClInclude Include="Backend\Features\Skinchanger\kitparser.h" />
     <ClInclude Include="Backend\Features\Skinchanger\Memory.h" />
     <ClInclude Include="Backend\Features\Skinchanger\skinchanger2.h" />
     <ClInclude Include="Backend\Features\Visuals\Drawing.h" />
@@ -547,10 +549,6 @@
     <ClInclude Include="Frontend\Menu\bgtexture.h" />
     <ClInclude Include="Frontend\Menu\bindsfont.h" />
     <ClInclude Include="Frontend\Menu\cmenu.h" />
-    <ClInclude Include="Frontend\Menu\Dropdown.h" />
-    <ClInclude Include="Frontend\Menu\MenuBackground.h" />
-    <ClInclude Include="Frontend\Menu\MenuControls.h" />
-    <ClInclude Include="Frontend\Menu\MenuFonts.h" />
     <ClInclude Include="Frontend\Other\ColorMgr.hpp" />
     <ClInclude Include="Frontend\Rendering\Render.h" />
     <ClInclude Include="Frontend\UI\imconfig.h" />
